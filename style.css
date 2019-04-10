@@ -35,11 +35,14 @@ div.cover{
 }
 
  @media screen and (orientation:portrait) {
+ 	.wrapper{
+		margin-top:25vh;
+	}
  	img.cover{
 		width:100%;
 		height:auto
 	}
 	div.cover{
-		top:12vh;
+		top:37vh;
 	}
  }
