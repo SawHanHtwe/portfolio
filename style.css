@@ -33,3 +33,13 @@ div.cover{
 .cover a:hover{
 	box-shadow: none;
 }
+
+ @media screen and (orientation:portrait) {
+ 	img.cover{
+		width:100%;
+		height:auto
+	}
+	div.cover{
+		top:12vh;
+	}
+ }
